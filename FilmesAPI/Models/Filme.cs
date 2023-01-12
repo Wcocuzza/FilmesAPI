@@ -4,7 +4,8 @@ namespace FilmesAPI.Models;
 
 public class Filme
 {
-    // DataAnnottions
+    public int Id { get; set; }
+    // DataAnnotations
     [Required]
     public string Titulo { get; set; }
     [Required]
